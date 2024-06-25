@@ -90,10 +90,11 @@ def pagina_dados():
 
         st.markdown(
             """
-            - **Data source**: Global Carbon Budget (2023)
-            OurWorldInData.org/co2-and-greenhouse-gas-emissions
-
-            - **Fonte**: Sistema de Estimativa de Emissões e Remoções de Gases de Efeito Estufa (SEEG)- Observatório do Clima (OC), 2023/v11.1
+            
+            - **Global Carbon Budget (2023)**: https://OurWorldInData.org/co2-and-greenhouse-gas-emissions
+            - **Sistema de Estimativa de Emissões e Remoções de Gases de Efeito Estufa (SEEG)**- Observatório do Clima (OC), 2023/v11.1
+            - **Historical GHG Emissions (2021)** https://www.climatewatchdata.org/ghg-emissions
+            - **ESTIMATIVAS ANUAIS DE EMISSÕES DE GASES DE EFEITO ESTUFA NO BRASIL 5ª Edição 2020** https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/publicacoes/estimativas-anuais-de-emissoes-gee/arquivos/livro_digital_5ed_estimativas_anuais.pdf
             
             """
         )
