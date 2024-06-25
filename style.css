@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,600,800,900');
+
+/* Definição da fonte padrão */
+body * {
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
+}
+
+/* Estilização global */
+body hr {
+    background-color: #eeeee9;
+    font-family: 'Heebo', sans-serif;
+    color: rgb(23, 48, 28);
+}
+
+/* Cabeçalho background: rgb(238, 238, 233);*/
+
+.stApp>header {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+div[data-testid="stHorizontalBlock"]>div:first-of-type {
+    background: rgba(238, 238, 233, 0.25);
+    padding: 20px;
+}
+
+
+.stApp {
+    background: #FFFFFF;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #eeeee9;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #eeeee9;
+}
+
+/* Links */
+a {
+    color: rgba(23, 48, 28, 0.95);
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: rgba(71, 101, 84, 1);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:link,
+a:visited {
+    color: rgba(71, 101, 84, 0.95);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+/* Seções */
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #eeeee9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-top: 0;
+    color: rgba(71, 101, 84, 0.95);
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+/* Botões */
+button {
+    background-color: rgba(71, 101, 84, 0.95);
+    color: #eeeee9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover:focus {
+    background-color: rgba(71, 101, 84, 0.95);
+    color: #eeeee9;
+}
+
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(71, 101, 84, 0.95);
+    color: #eeeee9;
+}
+
+/* Gráficos */
+.chart-container {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #eeeee9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgba(71, 101, 84, 0.95);
+}
+
+/* Rodapé */
+footer {
+    visibility: visible;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(71, 101, 84);
+    background: linear-gradient(0deg, rgba(71, 101, 84, 1) 22%, rgba(255, 255, 255, 1) 47%, rgba(255, 255, 255, 1) 67%);
+    color: rgba(23, 48, 28, 0.95);
+    text-align: center;
+    padding: 5px;
+}
+
+div.stButton>button:first-child {
+    width: 200px;
+    background-color: rgba(71, 101, 84, 0.95);
+    color: #F6F4F0;
+}
+
+div.stButton p {
+    font-family: "Heebo";
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+    padding-top: 1px;
+}
+
+div.stLinkButton>a:first-child {
+    width: 125px;
+    background-color: rgba(71, 101, 84, 0.95);
+    font-family: "Heebo" !important;
+    letter-spacing: 0.25px;
+
+}
+
+div.stLinkButton p {
+    font-size: 15px !important;
+    color: #F6F4F0;
+    font-family: "Heebo" !important;
+    font-weight: 600;
+}
+
+
+.st-emotion-cache-1brb4u2:focus:not(:active) {
+    border-color: #476554;
+    color: #eeeee9;
+}
+
+/*Sidebar*/
+.st-emotion-cache-1o14730 {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(238, 238, 233, 0.65);
+    color: #476554;
+    text-align: left;
+}
+
+.menu .nav-item .nav-link.active[data-v-5af006b8] {
+    background-color: rgba(71, 101, 84, 0.95);
+}
