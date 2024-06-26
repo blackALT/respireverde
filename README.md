@@ -1,4 +1,4 @@
-# Respire Verde
+# Respire Verde 🌱
 
 O Respire Verde é um website dedicado a fornecer informações abrangentes sobre emissões de gases de efeito estufa (GEE) soluções para reduzi-las.
    
